@@ -1,6 +1,8 @@
 ---
-title: Cloudflare Pages’ Headers when Using Middleware
+title: "Do Cloudflare Pages `_headers` Work with Middleware? An Experiment"
 date: 2026-03-04T23:09:00+08:00
+aliases:
+  - /notes/cloudflare-pages-headers-when-using-middleware/
 ---
 
 ## The Story Behind

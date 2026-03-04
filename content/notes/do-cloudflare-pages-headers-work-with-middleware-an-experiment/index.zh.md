@@ -1,6 +1,8 @@
 ---
-title: 使用 Middleware 時 Cloudflare Pages 的 Headers 行為
+title: "Cloudflare Pages 的 `_headers` 在 Middleware 下是否有效？一個實驗"
 date: 2026-03-04T23:09:00+08:00
+aliases:
+  - /notes/cloudflare-pages-headers-when-using-middleware/
 ---
 
 ## 背景
