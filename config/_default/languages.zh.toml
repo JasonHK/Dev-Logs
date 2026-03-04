@@ -12,7 +12,7 @@ title = "傑森的開發日誌"
   # logo = "img/logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"
-  # copyright = "Copy, _right?_ :thinking_face:"
+  copyright = "&copy; { year } 傑森的開發日誌"
 
 # [params.author]
 #   name = "Your name here"
