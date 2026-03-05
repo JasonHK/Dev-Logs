@@ -6,6 +6,7 @@
                     {{- errorf "One of the front matter aliases in %q contains whitespace" $page.String -}}
                 {{- end -}}
                 {{- printf "%s %s 301\n" . $page.RelPermalink -}}
+                {{- printf "%s/ %s 301\n" . $page.RelPermalink -}}
             {{- end -}}
         {{- end -}}
     {{- end -}}
