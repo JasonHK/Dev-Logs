@@ -16,6 +16,7 @@ buildFuture = false
 
 enableEmoji = true
 
+disableAliases = true
 # googleAnalytics = "G-XXXXXXXXX"
 
 [pagination]
@@ -35,8 +36,20 @@ enableEmoji = true
   filename = 'sitemap.xml'
   priority = 0.5
 
+[mediaTypes]
+
+  [mediaTypes."text/x-redirects"]
+    delimiter = ""
+
+[outputFormats]
+
+  [outputFormats.redirects]
+    baseName = "_redirects"
+    mediaType = "text/x-redirects"
+    isPlainText = true
+
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "RSS", "JSON", "redirects"]
 
 [related]
   threshold = 0
@@ -67,3 +80,4 @@ enableEmoji = true
       name = 'fragmentrefs'
       type = 'fragments'
       weight = 10
+    
