@@ -21,6 +21,10 @@ Usagi ura! pudding cup lick lick empty in seconds iyaa〜!! monster roar loud, e
 
 `PUCTF26{[a-zA-Z0-9_]+_[a-fA-F0-9]{32}}`
 
+### Author
+
+Paco
+
   {{< /accordionItem >}}
 {{< /accordion >}}
 </p>

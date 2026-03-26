@@ -21,6 +21,10 @@ date: 2026-03-08T20:15:00+08:00
 
 `PUCTF26{[a-zA-Z0-9_]+_[a-fA-F0-9]{32}}`
 
+### 作者
+
+Paco
+
   {{< /accordionItem >}}
 {{< /accordion >}}
 </p>
