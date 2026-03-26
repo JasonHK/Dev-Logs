@@ -47,7 +47,7 @@ liyanqwq
 
 ![從 WebAssembly 模組中反編譯出來的 C 語言標頭檔](images/validator-header.png "反編譯出來的 C 語言標頭檔")
 
-## 解決方案
+## 解法
 
 根據 worker 中的驗證器，我建立了一個精簡版本，並同時將 WebAssembly 模組的內部記憶體暴露出來：
 

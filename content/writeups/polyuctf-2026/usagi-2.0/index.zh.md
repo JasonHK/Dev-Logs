@@ -17,7 +17,7 @@ date: 2026-03-08T20:15:00+08:00
 
 - [{{< icon "image" >}} usagi2.0.gif](files/usagi2.0.gif)
 
-### 旗幟格式
+### 旗標格式
 
 `PUCTF26{[a-zA-Z0-9_]+_[a-fA-F0-9]{32}}`
 
@@ -27,7 +27,7 @@ date: 2026-03-08T20:15:00+08:00
 
 ## 分析
 
-這個 GIF 共有 48 個快速切換的畫面，其中不少其實是重複的；真正與題目有關的，只有最後 3 個不重複的畫面（即經過編碼的旗幟：`ZYrN0vy{Y9L2W_iCOX_wLMkWMt_p_4dRN_kzvByLXcKcyPzey5ecXHfLczPXzBPfzX}`）。
+這個 GIF 共有 48 個快速切換的畫面，其中不少其實是重複的；真正與題目有關的，只有最後 3 個不重複的畫面（即經過編碼的旗標：`ZYrN0vy{Y9L2W_iCOX_wLMkWMt_p_4dRN_kzvByLXcKcyPzey5ecXHfLczPXzBPfzX}`）。
 
 {{< carousel images="images/frames/*" >}}
 
@@ -75,13 +75,13 @@ if __name__ == "__main__":
             print(decode(line), end="")
 ```
 
-然後執行這個程式，便可以取得旗幟：
+然後執行這個程式，便可以取得旗標：
 
 ```console { title="終端機" }
 > ./unscramble.py "ZYrN0vy{Y9L2W_iCOX_wLMkWMt_p_4dRN_kzvByLXcKcyPzey5ecXHfLczPXzBPfzX}"
 PUCTF26{USaGi_LOve_Dancing_A_lotT_c7216ae95963706b09e8fa973e713f7e}
 ```
 
-### 最終旗幟
+### 最終旗標
 
 `PUCTF26{USaGi_LOve_Dancing_A_lotT_c7216ae95963706b09e8fa973e713f7e}`
